@@ -14,7 +14,10 @@
 
 trainworld.exe modelAdaption.exe computetest.exe 为原始的工程的编译的工具
 现已经全部集成到SRSystemV2.exe中 根据对SRSystemV2.exe传的参数的不同执行不同的
-功能。相应的配置文件分别为trainworld.xml traintarget.xml computetest.xml
+功能。相应的配置文件分别为
+trainworld.xml ：基础数据模型训练的配置文件
+traintarget.xml ：特定人数据模型训练的配置文件
+computetest.xml：测试配置文件
 
 SRSystem\BinExec\temp\wld_256init.xml：wld_256的初始模型
 SRSystem\BinExec\temp\wld_256.xml：基础模型，基于初始模型，使用一个较大的数据集训练出一个GMM模型（默认特征取mfcc，GMM分量256个）
