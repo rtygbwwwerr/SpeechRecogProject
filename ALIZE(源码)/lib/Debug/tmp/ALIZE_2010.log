@@ -1,0 +1,411 @@
+﻿生成启动时间为 2016/4/7 10:11:53。
+     1>项目“E:\alize\ALIZE_3.0\wincfg\ALIZE_2010.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“E:\alize\ALIZE_3.0\/lib/Debug/tmp/ALIZE.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Vs2010\VC\bin\CL.exe /c /IE:\alize\ALIZE_3.0\/include/ /ZI /nologo /W3 /WX- /Od /Oy- /D ALIZE_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\alize\ALIZE_3.0\/lib/Debug/tmp/" /Fd"E:\alize\ALIZE_3.0\/lib/Debug/tmp/vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\src\alizeString.cpp ..\src\AudioFileReader.cpp ..\src\AudioFrame.cpp ..\src\AudioInputStream.cpp ..\src\AutoDestructor.cpp ..\src\BoolMatrix.cpp ..\src\CmdLine.cpp ..\src\Config.cpp ..\src\ConfigChecker.cpp ..\src\ConfigFileReaderAbstract.cpp ..\src\ConfigFileReaderRaw.cpp ..\src\ConfigFileReaderXml.cpp ..\src\ConfigFileWriter.cpp ..\src\Distrib.cpp ..\src\DistribGD.cpp ..\src\DistribGF.cpp ..\src\DistribRefVector.cpp ..\src\DoubleSquareMatrix.cpp ..\src\Exception.cpp ..\src\Feature.cpp ..\src\FeatureFileList.cpp ..\src\FeatureFileReader.cpp ..\src\FeatureFileReaderAbstract.cpp ..\src\FeatureFileReaderHTK.cpp ..\src\FeatureFileReaderRaw.cpp ..\src\FeatureFileReaderSingle.cpp ..\src\FeatureFileReaderSPro3.cpp ..\src\FeatureFileReaderSPro4.cpp ..\src\FeatureFileWriter.cpp ..\src\FeatureFlags.cpp ..\src\FeatureInputStream.cpp ..\src\FeatureInputStreamModifier.cpp ..\src\FeatureMultipleFileReader.cpp ..\src\FeatureServer.cpp ..\src\FileReader.cpp ..\src\FileWriter.cpp ..\src\FrameAcc.cpp ..\src\FrameAccGD.cpp ..\src\FrameAccGF.cpp ..\src\Histo.cpp ..\src\Label.cpp ..\src\LabelFileReader.cpp ..\src\LabelServer.cpp ..\src\LabelSet.cpp ..\src\LKVector.cpp ..\src\Matrix.cpp ..\src\Mixture.cpp ..\src\MixtureDict.cpp ..\src\MixtureFileReader.cpp ..\src\MixtureFileReaderAbstract.cpp ..\src\MixtureFileReaderAmiral.cpp ..\src\MixtureFileReaderRaw.cpp ..\src\MixtureFileReaderXml.cpp ..\src\MixtureFileWriter.cpp ..\src\MixtureGD.cpp ..\src\MixtureGDStat.cpp ..\src\MixtureGF.cpp ..\src\MixtureGFStat.cpp ..\src\MixtureServer.cpp ..\src\MixtureServerFileReader.cpp ..\src\MixtureServerFileReaderAbstract.cpp ..\src\MixtureServerFileReaderRaw.cpp ..\src\MixtureServerFileReaderXml.cpp ..\src\MixtureServerFileWriter.cpp ..\src\MixtureStat.cpp ..\src\Object.cpp ..\src\Seg.cpp ..\src\SegAbstract.cpp ..\src\SegCluster.cpp ..\src\SegServer.cpp ..\src\SegServerFileReaderAbstract.cpp ..\src\SegServerFileReaderRaw.cpp ..\src\SegServerFileWriter.cpp ..\src\StatServer.cpp ..\src\ULongVector.cpp ..\src\ViterbiAccum.cpp ..\src\XLine.cpp ..\src\XList.cpp ..\src\XListFileReader.cpp ..\src\XmlParser.cpp
+         XmlParser.cpp
+         XListFileReader.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         XList.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         XLine.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ViterbiAccum.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ULongVector.cpp
+         StatServer.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SegServerFileWriter.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SegServerFileReaderRaw.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SegServerFileReaderAbstract.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SegServer.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SegCluster.cpp
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SegAbstract.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Seg.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Object.cpp
+         MixtureStat.cpp
+     1>e:\alize\alize_3.0\src\mixturestat.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureServerFileWriter.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureServerFileReaderXml.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureServerFileReaderRaw.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureServerFileReaderAbstract.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         MixtureServerFileReader.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureServer.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureGFStat.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureGF.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureGDStat.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureGD.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureFileWriter.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureFileReaderXml.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureFileReaderRaw.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureFileReaderAmiral.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureFileReaderAbstract.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureFileReader.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MixtureDict.cpp
+     1>e:\alize\alize_3.0\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Mixture.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Matrix.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         LKVector.cpp
+         LabelSet.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         LabelServer.cpp
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         LabelFileReader.cpp
+     1>e:\alize\alize_3.0\src\labelfilereader.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Label.cpp
+         正在生成代码...
+         正在编译...
+         Histo.cpp
+         FrameAccGF.cpp
+         FrameAccGD.cpp
+         FrameAcc.cpp
+         FileWriter.cpp
+         FileReader.cpp
+         FeatureServer.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstreammodifier.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureMultipleFileReader.cpp
+     1>e:\alize\alize_3.0\src\featuremultiplefilereader.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureInputStreamModifier.cpp
+     1>e:\alize\alize_3.0\include\featureinputstreammodifier.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureInputStream.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFlags.cpp
+         FeatureFileWriter.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileReaderSPro4.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileReaderSPro3.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileReaderSingle.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileReaderRaw.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileReaderHTK.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileReaderAbstract.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileReader.cpp
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         FeatureFileList.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         Feature.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Exception.cpp
+         DoubleSquareMatrix.cpp
+         DistribRefVector.cpp
+         DistribGF.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         DistribGD.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Distrib.cpp
+         ConfigFileWriter.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ConfigFileReaderXml.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ConfigFileReaderRaw.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ConfigFileReaderAbstract.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ConfigChecker.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Config.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CmdLine.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         BoolMatrix.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         AutoDestructor.cpp
+         AudioInputStream.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         AudioFrame.cpp
+         AudioFileReader.cpp
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\alize\alize_3.0\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         alizeString.cpp
+         正在生成代码...
+       Link:
+         D:\Vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\alize\ALIZE_3.0\/lib/Debug\ALIZE_Win32_Debug.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"E:\alize\ALIZE_3.0\/lib/Debug/tmp/ALIZE_Win32_Debug.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\alize\ALIZE_3.0\lib\Debug\ALIZE_Win32_Debug.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\alize\ALIZE_3.0\/lib/Debug\ALIZE_Win32_Debug.lib" /MACHINE:X86 /DLL E:\alize\ALIZE_3.0\/lib/Debug/tmp/alizeString.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/AudioFileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/AudioFrame.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/AudioInputStream.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/AutoDestructor.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/BoolMatrix.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/CmdLine.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Config.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/ConfigChecker.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/ConfigFileReaderAbstract.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/ConfigFileReaderRaw.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/ConfigFileReaderXml.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/ConfigFileWriter.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Distrib.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/DistribGD.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/DistribGF.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/DistribRefVector.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/DoubleSquareMatrix.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Exception.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Feature.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileList.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileReaderAbstract.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileReaderHTK.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileReaderRaw.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileReaderSingle.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileReaderSPro3.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileReaderSPro4.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFileWriter.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureFlags.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureInputStream.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureInputStreamModifier.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureMultipleFileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FeatureServer.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FileWriter.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FrameAcc.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FrameAccGD.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/FrameAccGF.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Histo.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Label.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/LabelFileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/LabelServer.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/LabelSet.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/LKVector.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Matrix.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Mixture.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureDict.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureFileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureFileReaderAbstract.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureFileReaderAmiral.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureFileReaderRaw.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureFileReaderXml.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureFileWriter.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureGD.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureGDStat.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureGF.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureGFStat.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureServer.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureServerFileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureServerFileReaderAbstract.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureServerFileReaderRaw.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureServerFileReaderXml.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureServerFileWriter.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/MixtureStat.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Object.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/Seg.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/SegAbstract.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/SegCluster.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/SegServer.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/SegServerFileReaderAbstract.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/SegServerFileReaderRaw.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/SegServerFileWriter.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/StatServer.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/ULongVector.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/ViterbiAccum.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/XLine.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/XList.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/XListFileReader.obj
+         E:\alize\ALIZE_3.0\/lib/Debug/tmp/XmlParser.obj
+            正在创建库 E:\alize\ALIZE_3.0\/lib/Debug\ALIZE_Win32_Debug.lib 和对象 E:\alize\ALIZE_3.0\/lib/Debug\ALIZE_Win32_Debug.exp
+         ALIZE_2010.vcxproj -> E:\alize\ALIZE_3.0\/lib/Debug\ALIZE_Win32_Debug.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\alize\ALIZE_3.0\/lib/Debug\ALIZE_Win32_Debug.dll;#2" /manifest E:\alize\ALIZE_3.0\/lib/Debug/tmp/ALIZE_Win32_Debug.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“E:\alize\ALIZE_3.0\/lib/Debug/tmp/ALIZE.unsuccessfulbuild”。
+         正在对“E:\alize\ALIZE_3.0\/lib/Debug/tmp/ALIZE.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\alize\ALIZE_3.0\wincfg\ALIZE_2010.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.24

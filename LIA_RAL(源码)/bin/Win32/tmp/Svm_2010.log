@@ -1,0 +1,134 @@
+﻿生成启动时间为 2016/4/8 10:12:15。
+     1>项目“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\wincfg\Svm_2010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/Svm.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Vs2010\VC\bin\CL.exe /c /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/../ALIZE/include" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/LIA_SpkTools/include" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/LIA_Utils/Svm/include" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/include/Eigen" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/" /Fd"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\LIA_Utils\Svm\src\libsvm.cpp ..\LIA_Utils\Svm\src\Svm.cpp ..\LIA_Utils\Svm\src\SvmMain.cpp
+         SvmMain.cpp
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstreammodifier.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Svm.cpp
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstreammodifier.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         libsvm.cpp
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(53): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(371) : 参见“vsprintf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2584): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2692): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2708): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2712): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2734): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2755): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2757): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2759): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2761): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2763): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2769): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2776): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2783): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2790): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2797): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2830): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(197) : 参见“strtok”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2833): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(197) : 参见“strtok”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2859): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(197) : 参见“strtok”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2863): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(197) : 参见“strtok”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2869): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(197) : 参见“strtok”的声明
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_utils\svm\src\libsvm.cpp(2870): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\string.h(197) : 参见“strtok”的声明
+         正在生成代码...
+       Link:
+         D:\Vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/Svm.exe" /NOLOGO /LIBPATH:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/../ALIZE/lib/Debug" /LIBPATH:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/lib/Debug" /LIBPATH:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/lib" liatools_Win32_Debug.lib ALIZE_Win32_Debug.lib /MANIFEST /ManifestFile:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/Svm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\bin\Win32\Svm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/Svm.lib" /MACHINE:X86 "D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/libsvm.obj"
+         "D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/Svm.obj"
+         "D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/SvmMain.obj"
+     1>SvmMain.obj : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“SvmMain.obj”或在“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\bin\Win32\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Svm.obj : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Svm.obj”或在“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\bin\Win32\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libsvm.obj : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libsvm.obj”或在“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\bin\Win32\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Svm_2010.vcxproj -> D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/Svm.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/Svm.exe;#1" /manifest "D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/Svm.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/Svm.unsuccessfulbuild”。
+         正在对“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/Svm.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\wincfg\Svm_2010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.52

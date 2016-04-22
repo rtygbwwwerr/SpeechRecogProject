@@ -1,0 +1,85 @@
+﻿生成启动时间为 2016/4/8 10:15:41。
+     1>项目“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\wincfg\IvTest_2010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/IvTest.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Vs2010\VC\bin\CL.exe /c /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/../ALIZE/include" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/LIA_SpkTools/include" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/LIA_SpkDet/IvTest/include" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/include/Eigen" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/include/Eigen/src/Eigenvalues" /I"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/include/Eigen/src/Cholesky" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/" /Fd"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/vc100.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\LIA_SpkDet\IvTest\src\IvTest.cpp ..\LIA_SpkDet\IvTest\src\IvTestMain.cpp
+         IvTestMain.cpp
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstreammodifier.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         IvTest.cpp
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\segcluster.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\labelserver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\mixturedict.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstreammodifier.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\featureinputstream.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\alize\include\refvector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\projects\win32projects\speakerrecognizesystem\alize--lia_ral\lia_ral_3.0\lia_spktools\include\segtools.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         D:\Vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/IvTest.exe" /NOLOGO /LIBPATH:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/../ALIZE/lib/Debug" /LIBPATH:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/lib/Debug" /LIBPATH:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/lib" liatools_Win32_Debug.lib ALIZE_Win32_Debug.lib /MANIFEST /ManifestFile:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/IvTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\bin\Win32\IvTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/IvTest.lib" /MACHINE:X86 "D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/IvTest.obj"
+         "D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/IvTestMain.obj"
+         IvTest_2010.vcxproj -> D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/IvTest.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/IvTest.exe;#1" /manifest "D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/IvTest.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/IvTest.unsuccessfulbuild”。
+         正在对“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\/bin/Win32/tmp/IvTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Projects\Win32Projects\SpeakerRecognizeSystem\alize--lia_ral\LIA_RAL_3.0\wincfg\IvTest_2010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.59
