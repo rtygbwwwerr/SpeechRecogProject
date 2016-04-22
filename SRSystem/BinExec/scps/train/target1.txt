@@ -1,0 +1,1 @@
+target1 scps/train/target1_train.scp

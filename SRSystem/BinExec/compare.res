@@ -1,0 +1,9 @@
+M/F target1 1 target1_test_23 11.0286
+M/F target2 1 target1_test_23 8.69436
+M/F target3 1 target1_test_23 6.79202
+M/F target4 1 target1_test_23 8.57523
+M/F target5 1 target1_test_23 7.9716
+M/F target6 1 target1_test_23 6.49847
+M/F target7 1 target1_test_23 8.44405
+M/F target8 1 target1_test_23 8.41592
+M/F target9 1 target1_test_23 7.19925

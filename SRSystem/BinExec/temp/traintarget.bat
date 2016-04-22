@@ -1,0 +1,9 @@
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target1 --targetIdList scps\train\target1.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target2 --targetIdList scps\train\target2.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target3 --targetIdList scps\train\target3.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target4 --targetIdList scps\train\target4.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target5 --targetIdList scps\train\target5.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target6 --targetIdList scps\train\target6.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target7 --targetIdList scps\train\target7.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target8 --targetIdList scps\train\target8.txt
+SRSystemV2.exe --traintarget traintarget.xml --defaultLabel target9 --targetIdList scps\train\target9.txt

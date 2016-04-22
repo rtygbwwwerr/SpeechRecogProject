@@ -1,0 +1,39 @@
+<config version="1">
+	<param name="debug">false</param>
+	<param name="bigEndian">true</param>
+	<param name="verbose">true</param>
+	
+	<param name="loadFeatureFileFormat">HTK</param>
+	<param name="loadFeatureFileExtension"></param>
+	<param name="featureFilesPath"></param>
+	<param name="featureServerMemAlloc">10000000</param>
+	<param name="featureServerMask">0-38</param>
+	<param name="vectSize">39</param>	
+	<param name="mixtureDistribCount">256</param>
+	<param name="topDistribCount">128</param>
+	<param name="distribType">GD</param>
+	<param name="mixtureFilesPath">.\temp\</param>	
+
+	<param name="loadMixtureFileFormat">XML</param>
+	<param name="loadMixtureFileExtension">.xml</param>
+	<param name="saveMixtureFileFormat">XML</param>
+	<param name="saveMixtureFileExtension">.xml</param>
+	<param name="minLLK">-100</param>
+	<param name="maxLLK">100</param>
+	<param name="featureFlags">000000</param>
+	<param name="mixtureServer">mixture</param>
+	<param name="useIdForSelectedFrame">true</param>
+	<param name="baggedFrameProbability">1</param>
+	<param name="nbTrainIt">5</param>
+	<param name="nbTrainFinalIt">1</param>
+	<param name="meanAdapt">true</param>
+	<param name="MAPAlgo">MAPOccDep</param>	
+	<param name="normalizeModel">false</param>
+	<param name="inputWorldFilename">wld_256</param>
+	<param name="frameLength">0.01</param>
+	<param name="addDefaultLabel">true</param>
+	<param name="MAPRegFactorMean">10</param>
+	<param name="alpha">0.75</param>
+	
+</config>
+

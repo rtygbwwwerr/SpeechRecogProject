@@ -1,0 +1,13 @@
+1:ALIZE(源码)为Alize官网下载下来的3.0的原始的未经修改的源代码
+2:LIA_RAL(源码)为Alize官网下载下来的原始的未经修改的源代码
+3:SRSystem为说话人识别工程系统
+
+
+未完成的工作：
+
+1:trainworld目前用的是elly以前的trainworld.exe工具
+虽然SRSystemV2中的trainworld模块也能使用，但是训练起来时间要比以前的工具长很多
+
+2:traintarget现在采用的是一次train一个target模式 这样要每次训练之前都得重新加载world模型导致时间上花费很多  以后可以改成一次加载world同时训练多个target
+
+3:computest模块目前尚未改成同时保存多个compare.res 也就是说对于每个要测试的特征最终保存的都是compare.res文件 以后可以改成对不同的测试的特征按照其名字来保存结果文件

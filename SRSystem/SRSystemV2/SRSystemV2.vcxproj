@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{429ABD90-6327-48B3-AB89-BA8F69A28320}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SRSystemV2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>.\Debug</OutDir>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN32;ALIZE_EXPORTS;LIA_SPKTOOLS_EXPORTS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\Alize;.\Lia_Ral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>%(UndefinePreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+      <DisableSpecificWarnings>4819;4251;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>COPY "$(TargetDir)$(TargetName).exe" ..\BinExec\$(TargetName).exe</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN32;ALIZE_EXPORTS;LIA_SPKTOOLS_EXPORTS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\Alize;.\Lia_Ral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>%(UndefinePreprocessorDefinitions)</UndefinePreprocessorDefinitions>
+      <DisableSpecificWarnings>4819;4251;4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alize\alize.h" />
+    <ClInclude Include="Alize\alizeString.h" />
+    <ClInclude Include="Alize\AudioFileReader.h" />
+    <ClInclude Include="Alize\AudioFrame.h" />
+    <ClInclude Include="Alize\AudioInputStream.h" />
+    <ClInclude Include="Alize\AutoDestructor.h" />
+    <ClInclude Include="Alize\BoolMatrix.h" />
+    <ClInclude Include="Alize\CmdLine.h" />
+    <ClInclude Include="Alize\Config.h" />
+    <ClInclude Include="Alize\ConfigChecker.h" />
+    <ClInclude Include="Alize\ConfigFileReaderAbstract.h" />
+    <ClInclude Include="Alize\ConfigFileReaderRaw.h" />
+    <ClInclude Include="Alize\ConfigFileReaderXml.h" />
+    <ClInclude Include="Alize\ConfigFileWriter.h" />
+    <ClInclude Include="Alize\Distrib.h" />
+    <ClInclude Include="Alize\DistribGD.h" />
+    <ClInclude Include="Alize\DistribGF.h" />
+    <ClInclude Include="Alize\DistribRefVector.h" />
+    <ClInclude Include="Alize\DoubleSquareMatrix.h" />
+    <ClInclude Include="Alize\Exception.h" />
+    <ClInclude Include="Alize\Feature.h" />
+    <ClInclude Include="Alize\FeatureFileList.h" />
+    <ClInclude Include="Alize\FeatureFileReader.h" />
+    <ClInclude Include="Alize\FeatureFileReaderAbstract.h" />
+    <ClInclude Include="Alize\FeatureFileReaderHTK.h" />
+    <ClInclude Include="Alize\FeatureFileReaderRaw.h" />
+    <ClInclude Include="Alize\FeatureFileReaderSingle.h" />
+    <ClInclude Include="Alize\FeatureFileReaderSPro3.h" />
+    <ClInclude Include="Alize\FeatureFileReaderSPro4.h" />
+    <ClInclude Include="Alize\FeatureFileWriter.h" />
+    <ClInclude Include="Alize\FeatureFlags.h" />
+    <ClInclude Include="Alize\FeatureInputStream.h" />
+    <ClInclude Include="Alize\FeatureInputStreamModifier.h" />
+    <ClInclude Include="Alize\FeatureMultipleFileReader.h" />
+    <ClInclude Include="Alize\FeatureServer.h" />
+    <ClInclude Include="Alize\FileReader.h" />
+    <ClInclude Include="Alize\FileWriter.h" />
+    <ClInclude Include="Alize\FrameAcc.h" />
+    <ClInclude Include="Alize\FrameAccGD.h" />
+    <ClInclude Include="Alize\FrameAccGF.h" />
+    <ClInclude Include="Alize\Histo.h" />
+    <ClInclude Include="Alize\Label.h" />
+    <ClInclude Include="Alize\LabelFileReader.h" />
+    <ClInclude Include="Alize\LabelServer.h" />
+    <ClInclude Include="Alize\LabelSet.h" />
+    <ClInclude Include="Alize\LKVector.h" />
+    <ClInclude Include="Alize\Matrix.h" />
+    <ClInclude Include="Alize\Mixture.h" />
+    <ClInclude Include="Alize\MixtureDict.h" />
+    <ClInclude Include="Alize\MixtureFileReader.h" />
+    <ClInclude Include="Alize\MixtureFileReaderAbstract.h" />
+    <ClInclude Include="Alize\MixtureFileReaderAmiral.h" />
+    <ClInclude Include="Alize\MixtureFileReaderRaw.h" />
+    <ClInclude Include="Alize\MixtureFileReaderXml.h" />
+    <ClInclude Include="Alize\MixtureFileWriter.h" />
+    <ClInclude Include="Alize\MixtureGD.h" />
+    <ClInclude Include="Alize\MixtureGDStat.h" />
+    <ClInclude Include="Alize\MixtureGF.h" />
+    <ClInclude Include="Alize\MixtureGFStat.h" />
+    <ClInclude Include="Alize\MixtureServer.h" />
+    <ClInclude Include="Alize\MixtureServerFileReader.h" />
+    <ClInclude Include="Alize\MixtureServerFileReaderAbstract.h" />
+    <ClInclude Include="Alize\MixtureServerFileReaderRaw.h" />
+    <ClInclude Include="Alize\MixtureServerFileReaderXml.h" />
+    <ClInclude Include="Alize\MixtureServerFileWriter.h" />
+    <ClInclude Include="Alize\MixtureStat.h" />
+    <ClInclude Include="Alize\Object.h" />
+    <ClInclude Include="Alize\RealVector.h" />
+    <ClInclude Include="Alize\RefVector.h" />
+    <ClInclude Include="Alize\Seg.h" />
+    <ClInclude Include="Alize\SegAbstract.h" />
+    <ClInclude Include="Alize\SegCluster.h" />
+    <ClInclude Include="Alize\SegServer.h" />
+    <ClInclude Include="Alize\SegServerFileReaderAbstract.h" />
+    <ClInclude Include="Alize\SegServerFileReaderRaw.h" />
+    <ClInclude Include="Alize\SegServerFileWriter.h" />
+    <ClInclude Include="Alize\StatServer.h" />
+    <ClInclude Include="Alize\ULongVector.h" />
+    <ClInclude Include="Alize\ViterbiAccum.h" />
+    <ClInclude Include="Alize\XLine.h" />
+    <ClInclude Include="Alize\XList.h" />
+    <ClInclude Include="Alize\XListFileReader.h" />
+    <ClInclude Include="Alize\XmlParser.h" />
+    <ClInclude Include="ComputeTest\ComputeTest.h" />
+    <ClInclude Include="Lia_Ral\AccumulateJFAStat.h" />
+    <ClInclude Include="Lia_Ral\AccumulateStat.h" />
+    <ClInclude Include="Lia_Ral\ClusteringCriterion.h" />
+    <ClInclude Include="Lia_Ral\FactorAnalysis.h" />
+    <ClInclude Include="Lia_Ral\FileInfo.h" />
+    <ClInclude Include="Lia_Ral\GeneralTools.h" />
+    <ClInclude Include="Lia_Ral\Hmm.h" />
+    <ClInclude Include="Lia_Ral\IOFormat.h" />
+    <ClInclude Include="Lia_Ral\liatools.h" />
+    <ClInclude Include="Lia_Ral\ScoreWarp.h" />
+    <ClInclude Include="Lia_Ral\SegTools.h" />
+    <ClInclude Include="Lia_Ral\SuperVectors.h" />
+    <ClInclude Include="Lia_Ral\Tools.h" />
+    <ClInclude Include="Lia_Ral\TopGauss.h" />
+    <ClInclude Include="Lia_Ral\TrainTools.h" />
+    <ClInclude Include="Lia_Ral\UnsupervisedTools.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TrainTarget\TrainTarget.h" />
+    <ClInclude Include="TrainWorld\TrainWorld.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alize\alizeString.cpp" />
+    <ClCompile Include="Alize\AudioFileReader.cpp" />
+    <ClCompile Include="Alize\AudioFrame.cpp" />
+    <ClCompile Include="Alize\AudioInputStream.cpp" />
+    <ClCompile Include="Alize\AutoDestructor.cpp" />
+    <ClCompile Include="Alize\BoolMatrix.cpp" />
+    <ClCompile Include="Alize\CmdLine.cpp" />
+    <ClCompile Include="Alize\Config.cpp" />
+    <ClCompile Include="Alize\ConfigChecker.cpp" />
+    <ClCompile Include="Alize\ConfigFileReaderAbstract.cpp" />
+    <ClCompile Include="Alize\ConfigFileReaderRaw.cpp" />
+    <ClCompile Include="Alize\ConfigFileReaderXml.cpp" />
+    <ClCompile Include="Alize\ConfigFileWriter.cpp" />
+    <ClCompile Include="Alize\Distrib.cpp" />
+    <ClCompile Include="Alize\DistribGD.cpp" />
+    <ClCompile Include="Alize\DistribGF.cpp" />
+    <ClCompile Include="Alize\DistribRefVector.cpp" />
+    <ClCompile Include="Alize\DoubleSquareMatrix.cpp" />
+    <ClCompile Include="Alize\Exception.cpp" />
+    <ClCompile Include="Alize\Feature.cpp" />
+    <ClCompile Include="Alize\FeatureFileList.cpp" />
+    <ClCompile Include="Alize\FeatureFileReader.cpp" />
+    <ClCompile Include="Alize\FeatureFileReaderAbstract.cpp" />
+    <ClCompile Include="Alize\FeatureFileReaderHTK.cpp" />
+    <ClCompile Include="Alize\FeatureFileReaderRaw.cpp" />
+    <ClCompile Include="Alize\FeatureFileReaderSingle.cpp" />
+    <ClCompile Include="Alize\FeatureFileReaderSPro3.cpp" />
+    <ClCompile Include="Alize\FeatureFileReaderSPro4.cpp" />
+    <ClCompile Include="Alize\FeatureFileWriter.cpp" />
+    <ClCompile Include="Alize\FeatureFlags.cpp" />
+    <ClCompile Include="Alize\FeatureInputStream.cpp" />
+    <ClCompile Include="Alize\FeatureInputStreamModifier.cpp" />
+    <ClCompile Include="Alize\FeatureMultipleFileReader.cpp" />
+    <ClCompile Include="Alize\FeatureServer.cpp" />
+    <ClCompile Include="Alize\FileReader.cpp" />
+    <ClCompile Include="Alize\FileWriter.cpp" />
+    <ClCompile Include="Alize\FrameAcc.cpp" />
+    <ClCompile Include="Alize\FrameAccGD.cpp" />
+    <ClCompile Include="Alize\FrameAccGF.cpp" />
+    <ClCompile Include="Alize\Histo.cpp" />
+    <ClCompile Include="Alize\Label.cpp" />
+    <ClCompile Include="Alize\LabelFileReader.cpp" />
+    <ClCompile Include="Alize\LabelServer.cpp" />
+    <ClCompile Include="Alize\LabelSet.cpp" />
+    <ClCompile Include="Alize\LKVector.cpp" />
+    <ClCompile Include="Alize\Matrix.cpp" />
+    <ClCompile Include="Alize\Mixture.cpp" />
+    <ClCompile Include="Alize\MixtureDict.cpp" />
+    <ClCompile Include="Alize\MixtureFileReader.cpp" />
+    <ClCompile Include="Alize\MixtureFileReaderAbstract.cpp" />
+    <ClCompile Include="Alize\MixtureFileReaderAmiral.cpp" />
+    <ClCompile Include="Alize\MixtureFileReaderRaw.cpp" />
+    <ClCompile Include="Alize\MixtureFileReaderXml.cpp" />
+    <ClCompile Include="Alize\MixtureFileWriter.cpp" />
+    <ClCompile Include="Alize\MixtureGD.cpp" />
+    <ClCompile Include="Alize\MixtureGDStat.cpp" />
+    <ClCompile Include="Alize\MixtureGF.cpp" />
+    <ClCompile Include="Alize\MixtureGFStat.cpp" />
+    <ClCompile Include="Alize\MixtureServer.cpp" />
+    <ClCompile Include="Alize\MixtureServerFileReader.cpp" />
+    <ClCompile Include="Alize\MixtureServerFileReaderAbstract.cpp" />
+    <ClCompile Include="Alize\MixtureServerFileReaderRaw.cpp" />
+    <ClCompile Include="Alize\MixtureServerFileReaderXml.cpp" />
+    <ClCompile Include="Alize\MixtureServerFileWriter.cpp" />
+    <ClCompile Include="Alize\MixtureStat.cpp" />
+    <ClCompile Include="Alize\Object.cpp" />
+    <ClCompile Include="Alize\Seg.cpp" />
+    <ClCompile Include="Alize\SegAbstract.cpp" />
+    <ClCompile Include="Alize\SegCluster.cpp" />
+    <ClCompile Include="Alize\SegServer.cpp" />
+    <ClCompile Include="Alize\SegServerFileReaderAbstract.cpp" />
+    <ClCompile Include="Alize\SegServerFileReaderRaw.cpp" />
+    <ClCompile Include="Alize\SegServerFileWriter.cpp" />
+    <ClCompile Include="Alize\StatServer.cpp" />
+    <ClCompile Include="Alize\ULongVector.cpp" />
+    <ClCompile Include="Alize\ViterbiAccum.cpp" />
+    <ClCompile Include="Alize\XLine.cpp" />
+    <ClCompile Include="Alize\XList.cpp" />
+    <ClCompile Include="Alize\XListFileReader.cpp" />
+    <ClCompile Include="Alize\XmlParser.cpp" />
+    <ClCompile Include="ComputeTest\ComputeTest.cpp" />
+    <ClCompile Include="ComputeTest\ComputeTestMain.cpp" />
+    <ClCompile Include="Lia_Ral\AccumulateJFAStat.cpp" />
+    <ClCompile Include="Lia_Ral\AccumulateStat.cpp" />
+    <ClCompile Include="Lia_Ral\ClusteringCriterion.cpp" />
+    <ClCompile Include="Lia_Ral\FactorAnalysis.cpp" />
+    <ClCompile Include="Lia_Ral\FileInfo.cpp" />
+    <ClCompile Include="Lia_Ral\GeneralTools.cpp" />
+    <ClCompile Include="Lia_Ral\Hmm.cpp" />
+    <ClCompile Include="Lia_Ral\IOFormat.cpp" />
+    <ClCompile Include="Lia_Ral\liatools.cpp" />
+    <ClCompile Include="Lia_Ral\ScoreWarp.cpp" />
+    <ClCompile Include="Lia_Ral\SegTools.cpp" />
+    <ClCompile Include="Lia_Ral\SuperVectors.cpp" />
+    <ClCompile Include="Lia_Ral\Tools.cpp" />
+    <ClCompile Include="Lia_Ral\TopGauss.cpp" />
+    <ClCompile Include="Lia_Ral\TrainTools.cpp" />
+    <ClCompile Include="Lia_Ral\UnsupervisedTools.cpp" />
+    <ClCompile Include="SRSystemV2.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TrainTarget\TrainTarget.cpp" />
+    <ClCompile Include="TrainTarget\TrainTargetMain.cpp" />
+    <ClCompile Include="TrainWorld\TrainWorld.cpp" />
+    <ClCompile Include="TrainWorld\TrainWorldMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SRSystemV2.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

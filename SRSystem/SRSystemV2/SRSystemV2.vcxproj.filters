@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Alize">
+      <UniqueIdentifier>{804602eb-23a4-4615-83a2-83a94c98a90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lia_Ral">
+      <UniqueIdentifier>{875377d5-9ebf-41de-a214-bcd5bb2a95dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrainWorld">
+      <UniqueIdentifier>{caf53653-2560-4ce6-9c3e-022e9fb9899b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrainTarget">
+      <UniqueIdentifier>{2045d873-a5a8-4c2e-93bd-aea62d684f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComputeTest">
+      <UniqueIdentifier>{e0298ce7-7584-494b-9ead-26b95097a1eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\alize.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\alizeString.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\AudioFileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\AudioFrame.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\AudioInputStream.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\AutoDestructor.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\BoolMatrix.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\CmdLine.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Config.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\ConfigChecker.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\ConfigFileReaderAbstract.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\ConfigFileReaderRaw.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\ConfigFileReaderXml.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\ConfigFileWriter.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Distrib.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\DistribGD.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\DistribGF.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\DistribRefVector.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\DoubleSquareMatrix.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Exception.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Feature.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileList.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileReaderAbstract.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileReaderHTK.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileReaderRaw.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileReaderSingle.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileReaderSPro3.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileReaderSPro4.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFileWriter.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureFlags.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureInputStream.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureInputStreamModifier.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureMultipleFileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FeatureServer.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FileWriter.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FrameAcc.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FrameAccGD.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\FrameAccGF.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Histo.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Label.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\LabelFileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\LabelServer.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\LabelSet.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\LKVector.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Matrix.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Mixture.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureDict.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureFileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureFileReaderAbstract.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureFileReaderAmiral.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureFileReaderRaw.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureFileReaderXml.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureFileWriter.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureGD.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureGDStat.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureGF.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureGFStat.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureServer.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureServerFileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureServerFileReaderAbstract.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureServerFileReaderRaw.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureServerFileReaderXml.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureServerFileWriter.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\MixtureStat.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Object.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\RealVector.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\RefVector.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\Seg.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\SegAbstract.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\SegCluster.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\SegServer.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\SegServerFileReaderAbstract.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\SegServerFileReaderRaw.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\SegServerFileWriter.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\StatServer.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\ULongVector.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\ViterbiAccum.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\XLine.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\XList.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\XListFileReader.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Alize\XmlParser.h">
+      <Filter>Alize</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\AccumulateStat.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\ClusteringCriterion.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\FactorAnalysis.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\FileInfo.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\Hmm.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\IOFormat.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\liatools.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\ScoreWarp.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\SegTools.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\SuperVectors.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\Tools.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\TopGauss.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\UnsupervisedTools.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\AccumulateJFAStat.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeTest\ComputeTest.h">
+      <Filter>ComputeTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\GeneralTools.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="Lia_Ral\TrainTools.h">
+      <Filter>Lia_Ral</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainTarget\TrainTarget.h">
+      <Filter>TrainTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainWorld\TrainWorld.h">
+      <Filter>TrainWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRSystemV2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\alizeString.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\AudioFileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\AudioFrame.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\AudioInputStream.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\AutoDestructor.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\BoolMatrix.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\CmdLine.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Config.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\ConfigChecker.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\ConfigFileReaderAbstract.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\ConfigFileReaderRaw.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\ConfigFileReaderXml.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\ConfigFileWriter.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Distrib.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\DistribGD.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\DistribGF.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\DistribRefVector.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\DoubleSquareMatrix.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Exception.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Feature.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileList.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileReaderAbstract.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileReaderHTK.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileReaderRaw.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileReaderSingle.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileReaderSPro3.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileReaderSPro4.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFileWriter.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureFlags.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureInputStream.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureInputStreamModifier.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureMultipleFileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FeatureServer.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FileWriter.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FrameAcc.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FrameAccGD.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\FrameAccGF.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Histo.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Label.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\LabelFileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\LabelServer.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\LabelSet.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\LKVector.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Matrix.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Mixture.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureDict.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureFileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureFileReaderAbstract.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureFileReaderAmiral.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureFileReaderRaw.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureFileReaderXml.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureFileWriter.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureGD.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureGDStat.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureGF.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureGFStat.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureServer.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureServerFileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureServerFileReaderAbstract.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureServerFileReaderRaw.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureServerFileReaderXml.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureServerFileWriter.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\MixtureStat.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Object.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\Seg.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\SegAbstract.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\SegCluster.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\SegServer.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\SegServerFileReaderAbstract.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\SegServerFileReaderRaw.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\SegServerFileWriter.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\StatServer.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\ULongVector.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\ViterbiAccum.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\XLine.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\XList.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\XListFileReader.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Alize\XmlParser.cpp">
+      <Filter>Alize</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\AccumulateStat.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\ClusteringCriterion.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\FactorAnalysis.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\FileInfo.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\Hmm.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\IOFormat.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\liatools.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\ScoreWarp.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\SegTools.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\SuperVectors.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\Tools.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\TopGauss.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\UnsupervisedTools.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\AccumulateJFAStat.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeTest\ComputeTest.cpp">
+      <Filter>ComputeTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeTest\ComputeTestMain.cpp">
+      <Filter>ComputeTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\GeneralTools.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainTarget\TrainTargetMain.cpp">
+      <Filter>TrainTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainWorld\TrainWorld.cpp">
+      <Filter>TrainWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainWorld\TrainWorldMain.cpp">
+      <Filter>TrainWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Lia_Ral\TrainTools.cpp">
+      <Filter>Lia_Ral</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainTarget\TrainTarget.cpp">
+      <Filter>TrainTarget</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SRSystemV2.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

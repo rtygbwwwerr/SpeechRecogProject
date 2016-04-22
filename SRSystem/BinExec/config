@@ -1,0 +1,13 @@
+SOURCEKIND		= WAVEFORM
+SOURCEFORMAT 	        = WAV #gives the format of the speech files
+ZMEANSOURCE 		= F		
+TARGETKIND 		= MFCC_E_D_A #identifier of the coefficients to use
+TARGETRATE 		= 100000.0	# frame period = 10msec SAVECOMPRESSED 	= T
+SAVEWITHCRC 		= T
+WINDOWSIZE 		= 250000.0	# window size = 35msec
+USEHAMMING 		= T
+PREEMCOEF 		= 0.95		# 1st order preemphasis, coefficient = 0.95
+NUMCHANS 		= 24		# num. of filterbank channel = 24
+CEPLIFTER 		= 22		# num. of cepstra = 22
+NUMCEPS 		= 12		# num. of MFCC coefficient = 12
+ENORMALISE 		= T		# energy normalization (live: F, otherwise: T)

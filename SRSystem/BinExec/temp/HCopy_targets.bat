@@ -1,0 +1,9 @@
+HCopy.exe -C config -S .\scps\targets\target1.scp
+HCopy.exe -C config -S .\scps\targets\target2.scp
+HCopy.exe -C config -S .\scps\targets\target3.scp
+HCopy.exe -C config -S .\scps\targets\target4.scp
+HCopy.exe -C config -S .\scps\targets\target5.scp
+HCopy.exe -C config -S .\scps\targets\target6.scp
+HCopy.exe -C config -S .\scps\targets\target7.scp
+HCopy.exe -C config -S .\scps\targets\target8.scp
+HCopy.exe -C config -S .\scps\targets\target9.scp

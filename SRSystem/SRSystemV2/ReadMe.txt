@@ -1,0 +1,4 @@
+﻿1:Alize和Lia_Ral为工程中所用到经过修改的Alize库以及其扩展库
+2:ComputeTest文件夹为说话人测试的源码文件
+3:TrainTarget文件夹为说话人训练targets的源码文件
+4:TrainWorld文件夹为说话人训练UBM的源码文件

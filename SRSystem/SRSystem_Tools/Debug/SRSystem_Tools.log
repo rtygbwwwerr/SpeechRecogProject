@@ -1,0 +1,38 @@
+﻿生成启动时间为 2016/4/22 13:58:31。
+     1>项目“D:\Development\SpeechRecogProject\SRSystem\SRSystem_Tools\SRSystem_Tools.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\SRSystem_Tools.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\development\speechrecogproject\srsystem\srsystem_tools\stdafx.h(21): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SRSystem_Tools.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bat_generate.cpp label_generate.cpp list_generate.cpp scps_generate.cpp SRSystem_Tools.cpp
+         SRSystem_Tools.cpp
+     1>d:\development\speechrecogproject\srsystem\srsystem_tools\srsystem_tools.cpp(56): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\development\speechrecogproject\srsystem\srsystem_tools\srsystem_tools.cpp(60): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\development\speechrecogproject\srsystem\srsystem_tools\srsystem_tools.cpp(96): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(1042) : 参见“wcscpy”的声明
+         scps_generate.cpp
+         list_generate.cpp
+         label_generate.cpp
+         bat_generate.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Debug\SRSystem_Tools.res" SRSystem_Tools.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\SRSystem_Tools.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\SRSystem_Tools.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\SRSystem_Tools.lib" /MACHINE:X86 Debug\SRSystem_Tools.res
+         Debug\bat_generate.obj
+         Debug\label_generate.obj
+         Debug\list_generate.obj
+         Debug\scps_generate.obj
+         Debug\SRSystem_Tools.obj
+         Debug\stdafx.obj
+         SRSystem_Tools.vcxproj -> D:\Development\SpeechRecogProject\SRSystem\SRSystem_Tools\.\Debug\SRSystem_Tools.exe
+       PostBuildEvent:
+         COPY "D:\Development\SpeechRecogProject\SRSystem\SRSystem_Tools\Debug\SRSystem_Tools.exe" ..\BinExec\SRSystem_Tools.exe
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“D:\Development\SpeechRecogProject\SRSystem\SRSystem_Tools\SRSystem_Tools.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.90
